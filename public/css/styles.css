@@ -155,3 +155,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .updog:active {
 	box-shadow: inset -2px 2px 0 0 #2E7D32;
 }
+
+.fa-times{
+	margin-bottom: 10px;
+	font-size: 20px;
+	transition: all 0.5s;
+}
+
+.fa-times:hover{
+	color: red;
+	transform: scale(1.5);
+}
