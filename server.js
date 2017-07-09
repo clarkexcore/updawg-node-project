@@ -5,8 +5,10 @@ const mongoose = require('mongoose');
 const Pet = require('./models/pet.js');
 const bodyParser = require('body-parser');
 
+//This is for deploying on Heroku!
+const DBURL = process.env.MONGODB_URI || 'mongodb://localhost/updog';
 
-//This is for Mongod Server to link to our UpDog database. 
+//This is for Mongod Server to link to our UpDog database.
 mongoose.connect('mongodb://localhost/updog')
 
 
